@@ -219,11 +219,13 @@ pre {
 .outline-2 h2 {
     font-family: Courier New;
     border-bottom: 4px solid #eeeeee;
+    color: #859900;
 }
 
 .outline-2 h3 {
     font-family: Courier New;
     border-bottom: 2px solid #eeeeee;
+    color: #859900;
 }
 
 p { 
