@@ -1,0 +1,25 @@
+# -*- mode: org; -*-
+
+# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://orgmode.org/org-changes.css"/>
+
+# #+HTML_HEAD: <script type="text/javascript" src="http://orgmode.org/js/jquery-1.7.2.min.js"></script>
+# #+HTML_HEAD: <script type="text/javascript" src="http://orgmode.org/js/org.js"></script>
+
+
+
+# -----------
+# 参看: http://cs2.swfc.edu.cn/~wx672/lecture_notes/linux/latex/latex_tutorial.html?utm_source=tuicool&utm_medium=referral#sec-1-1
+# 没有代码区域左右滚动, 左右区域过于宽, 不适合打印
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://cs2.swfu.edu.cn/org-info-js/org-manual.css"/>
+# -----------
+
+
+# -----------
+# 好看的设计, 不过没有目录, 也没有背景高亮和代码区域左右滚动
+# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://eschulte.github.io/babel-dev/data/style.css"/>
+# ----------
+
+# 目前代码左右滚动有问题, 不能在独立的滚动.
+# org-src-container 这个应该是问题所在
+
+
