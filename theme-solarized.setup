@@ -2,7 +2,7 @@
 # 缺点: 没有跟随在旁边的目录, 跳转不方便.fixed toc menu
 
 # --- 亮色主题
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles/theme-solarized/solarized-light.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/max2oi/OrgMode-Html-Themes/master/theme-solarized/solarized-light.css"/>
 
 # --- 暗色主题
 # #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles/theme-solarized/solarized-dark.css"/>
