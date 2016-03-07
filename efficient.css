@@ -54,7 +54,7 @@ h6 {
 }
 
 code {
-  background-color: #eee8d5;
+  background-color: #EFEEEE;
   padding: 2px;
 }
 
@@ -294,7 +294,8 @@ a:visited {                     /*这是访问之后的链接*/
 
 a:hover, a:active { 
              text-decoration: underline;
-             color: blue;    
+             color: blue;
+             border: 1px;   
     /* color: #3d696a; */
     /* color: #537d7b; */
 }
