@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
     padding: 1em;
     color: #000;
-
+    background: #eee none repeat scroll 0 0;添加背景区分
 }
 
 /* 用来添加边框 */
@@ -58,20 +58,17 @@ code {
   padding: 2px;
 }
 
-.title {
-/*    background: url(http://orgmode.org/org-mode-unicorn.png) no-repeat 12px 5px; */
+.title {/* background: url(http://orgmode.org/org-mode-unicorn.png) no-repeat 12px 5px; */
 /*    position: fixed; */
 /*    display: inline; */
     left: 0px;
     top: 0px;
 /*    height: 35px; */
     width: 100%;
-    margin-top: 0px;
-    background-color: #eee;
+    margin-top: 0px;background-color: rgb(133, 153, 0);
     padding: 0;
     z-index: 99;
-    text-align: center;
-}
+    text-align: center;}
 
 #orgquote {
     position: fixed;
@@ -134,11 +131,11 @@ code {
 }
 
 h1.title {
-    text-shadow: 2px 2px 4px #999;
-/*    padding-top: 23px; */
-/*    padding-left: 70pt; */
-/*    font-size: 23pt; */
-    font-family: Courier New; 
+    /* text-shadow: 2px 2px 4px #999; */
+    font-family: Courier New;
+    margin: -1em -1em .2em;
+    padding: 0.15em 1em;
+    color: #FFF;
 }
 
 #linklist 
@@ -180,7 +177,7 @@ h1.title {
 
 .timestamp {
     font-family: Courier New;
-    color: #888888;
+    color: rgba(136, 136, 136, 0.28);
 }
 
 #linklist li:hover {
@@ -265,10 +262,18 @@ pre {
     border-bottom: 2px solid #eeeeee;
 }
 
-p { 
-    margin-top: 0; 
+.outline-2 h4 {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.outline-2 h5 {
+    border-bottom: 1px solid rgba(238, 238, 238, 0.42);
+}
+
+p {
+    margin-top: 0;
     text-align: justify;
-    width: 1240px;
+    width: 930px;
 }
 
 a:link {                        /*这是访问之前的链接*/
