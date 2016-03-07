@@ -321,17 +321,11 @@ li {
 #table-of-contents {
     font-size: 9pt;
     position: fixed;
-    right: 0em;
-    top: 0em;
+    right: 22em;
+    top: 10em;
     background: white;
-    -webkit-box-shadow: 0 0 1em #777777;
-    -moz-box-shadow: 0 0 1em #777777;
-    -webkit-border-bottom-left-radius: 5px;
-    -moz-border-radius-bottomleft: 5px;
-/*    text-align: right; */
-    /* ensure doesn't flow off the screen when expanded */
     max-height: 80%;
-    overflow: auto; 
+    overflow: auto;
     z-index: 200;
 }
 
