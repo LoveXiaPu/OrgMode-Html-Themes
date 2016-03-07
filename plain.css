@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #859900;
+  color: #000000;
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: 700;
 }
@@ -65,7 +65,7 @@ code {
     top: 0px;
 /*    height: 35px; */
     width: 100%;
-    margin-top: 0px;background-color: rgb(133, 153, 0);
+    margin-top: 0px;background-color: rgba(0, 0, 255, 0.45);
     padding: 0;
     z-index: 99;
     text-align: center;}
@@ -131,7 +131,7 @@ code {
 }
 
 h1.title {
-    /* text-shadow: 2px 2px 4px #999; */
+    text-shadow: 2px 2px 4px #999;
     font-family: Courier New;
     margin: -1em -1em .2em;
     padding: 0.15em 1em;
@@ -185,11 +185,11 @@ h1.title {
 }
 
 pre {
-  background-color: #fdf6e3;
+  background-color: #EFEEEE;
   color: #657b83;
   border: 1pt solid #93a1a1;
   padding: 1em;
-  box-shadow: 5pt 5pt 8pt #eee8d5;
+  /* box-shadow: 5pt 5pt 8pt #EFEEEE; */
 }
 
 pre {
@@ -255,19 +255,19 @@ pre {
 }
 
 .outline-2 h2 {
-    border-bottom: 4px solid #eeeeee;
+    border-bottom: 4px solid #8C8CFF;
 }
 
 .outline-2 h3 {
-    border-bottom: 2px solid #eeeeee;
+    border-bottom: 2px solid #8C8CFF;
 }
 
 .outline-2 h4 {
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid #8C8CFF;
 }
 
 .outline-2 h5 {
-    border-bottom: 1px solid rgba(238, 238, 238, 0.42);
+    border-bottom: 1px solid #8C8CFF;
 }
 
 p {
