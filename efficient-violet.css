@@ -313,7 +313,7 @@ dt {
 }
 
 li {
-    margin: 10px;
+    margin: 8px;
     text-align: justify;
     list-style-image : url(http://orgmode.org/triangle.png);
 }
