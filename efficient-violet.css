@@ -315,7 +315,7 @@ dt {
 li {
     margin: 10px;
     text-align: justify;
-/*    list-style-image : url(http://orgmode.org/triangle.png); */
+    list-style-image : url(http://orgmode.org/triangle.png);
 }
 
 #table-of-contents {
