@@ -185,15 +185,15 @@ h1.title {
 }
 
 pre {
-  background-color: rgb(0, 0, 0);
-  color: #657b83;
-  border: 3pt solid rgb(139, 139, 139);
+  background-color: #000000;
+  color: #4EB9E0;
+  border: 3pt solid #969696;
   padding: 1em;
   /* box-shadow: 5pt 5pt 8pt #EFEEEE; */
 }
 
 pre {
-  white-space: pre-wrap;  
+  white-space: pre-wrap;
   word-wrap: break-word;
 }
 
