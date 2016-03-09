@@ -185,9 +185,9 @@ h1.title {
 }
 
 pre {
-  background-color: #EFEEEE;
+  background-color: rgb(0, 0, 0);
   color: #657b83;
-  border: 1pt solid #93a1a1;
+  border: 3pt solid rgb(139, 139, 139);
   padding: 1em;
   /* box-shadow: 5pt 5pt 8pt #EFEEEE; */
 }
