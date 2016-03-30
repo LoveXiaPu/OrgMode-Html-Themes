@@ -9,7 +9,7 @@ html {
 body {
     font-size: 11pt;
     line-height: 1.3;
-    max-width: 1000px;
+/*     max-width: 1000px; */
     margin: 0 auto;
     padding: 1em;
     color: #000;
@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #000000;
+  color: #859900;
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: 700;
 }
@@ -38,16 +38,33 @@ h1 {
   font-size: 2.8em;
 }
 h2 {
-  font-size: 2.4em;
+/* width: 30%; */
+font-size: 180%;
+letter-spacing: 5px;
+color:#6A9662;
+background: #fff;
 }
 h3 {
-  font-size: 1.8em;
+font-size: 130%;
+#text-transform: uppercase;
+letter-spacing: 1px;
+color:#476042;
+background: #fff;
 }
 h4 {
-  font-size: 1.4em;
+padding: 5px;
+#text-transform: uppercase;
+font-size: 110%;
+color:#fff;
+background: #6A9662;
 }
 h5 {
-  font-size: 1.3em;
+padding: 5px;
+margin-bottom: 4px;
+#text-transform: uppercase;
+font-size: 110%;
+color:#fff;
+background: #F17C0B;
 }
 h6 {
   font-size: 1.15em;
@@ -64,8 +81,8 @@ code {
     left: 0px;
     top: 0px;
 /*    height: 35px; */
-    width: 100%;
-    margin-top: 0px;background-color: rgba(0, 0, 255, 0.45);
+/*     width: 100%; */
+    margin-top: 0px;background-color: rgb(133, 153, 0);
     padding: 0;
     z-index: 99;
     text-align: center;}
@@ -93,45 +110,10 @@ code {
     z-index: 100;
 }
 
-#paypal button {
-    font-family: Courier new;
-    cursor: pointer;
-    color: white;
-    position:fixed;
-    display: none;
-    right: 14px;
-    top: 15px;
-    width: 90px; 
-    height: 40px;
-    box-shadow: 5px 5px 5px #888;
-    -webkit-box-shadow: 5px 5px 5px #888;
-    -moz-box-shadow: 5px 5px 5px #888;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    background-color: #53e1e3;
-    font-weight: bold;
-}
 
-#paypal button:hover {
-    position:fixed;
-    display: none;
-    right: 9px;
-    top: 15px;
-    width: 90px; 
-    height: 40px;
-    margin-top: 5px;
-    margin-left: 5px;
-    box-shadow: 0px 0px 0px #888;
-    -webkit-box-shadow: 0px 0px 0px #888;
-    -moz-box-shadow: 0px 0px 0px #888;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    background-color: #49f4f6;
-    font-weight: bold;
-}
 
 h1.title {
-    text-shadow: 2px 2px 4px #999;
+    /* text-shadow: 2px 2px 4px #999; */
     font-family: Courier New;
     margin: -1em -1em .2em;
     padding: 0.15em 1em;
@@ -185,15 +167,15 @@ h1.title {
 }
 
 pre {
-  background-color: #000000;
-  color: #4EB9E0;
-  border: 3pt solid #969696;
+  background-color: #fdf6e3;
+  color: #657b83;
+  border: 1pt solid #93a1a1;
   padding: 1em;
-  /* box-shadow: 5pt 5pt 8pt #EFEEEE; */
+  box-shadow: 5pt 5pt 8pt #eee8d5;
 }
 
 pre {
-  white-space: pre-wrap;
+  white-space: pre-wrap;  
   word-wrap: break-word;
 }
 
@@ -255,24 +237,25 @@ pre {
 }
 
 .outline-2 h2 {
-    border-bottom: 4px solid #8C8CFF;
+    border-bottom: 4px solid #eeeeee;
 }
 
 .outline-2 h3 {
-    border-bottom: 2px solid #8C8CFF;
+    border-bottom: 2px solid #eeeeee;
 }
 
 .outline-2 h4 {
-    border-bottom: 1px solid #8C8CFF;
+    border-bottom: 1px solid #eeeeee;
 }
 
 .outline-2 h5 {
-    border-bottom: 1px solid #8C8CFF;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.42);
 }
 
 p {
     margin-top: 0;
     text-align: justify;
+    width: 900px;
 }
 
 a:link {                        /*这是访问之前的链接*/
@@ -313,16 +296,17 @@ dt {
 }
 
 li {
-    margin: 8px;
+    margin: 10px;
     text-align: justify;
-    list-style-image : url(http://orgmode.org/triangle.png);
+/*    list-style-image : url(http://orgmode.org/triangle.png); */
 }
 
 #table-of-contents {
     font-size: 9pt;
     position: fixed;
-    right: 22em;
-    top: 10em;
+/*     right: 0em; */
+    left: 0em;
+    top: 0em;
     background: white;
     max-height: 80%;
     overflow: auto;
